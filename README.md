@@ -1,4 +1,4 @@
-#  Google Tag Manager (GTM)Scripts 
+#  Google Tag Manager (GTM) Scripts 
 ## License
 This script is licensed under the MIT License.
 Copyright (c) 2023 Ahmad Ismail
