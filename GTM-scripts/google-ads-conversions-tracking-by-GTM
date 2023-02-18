@@ -1,5 +1,7 @@
 // Version: 1.0.1
 
+// MIT License
+
 function createGoogleAdsConversionTag(triggerType, triggerFilters) {
     var tagManager = TagManager.Accounts.get('123456'); // Your GTM Account ID
     var container = tagManager.containers.get('GTM-123456'); // Your GTM Container ID
