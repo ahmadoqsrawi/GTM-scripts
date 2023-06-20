@@ -45,9 +45,27 @@ SOFTWARE.
 - Your Google Ads Conversion ID and Label
 
 ### Usage
-**To use this script, follow these steps:**
 
-1. Copy the script code and paste it into a new script file in your Google Apps Script editor.
-2. Replace the GTM account ID and container ID with your own values.
-3. Replace the conversion ID, conversion label, and send-to value with your own values.
-4. Call the createGoogleAdsConversionTag() function with the appropriate trigger type and trigger filters (optional).
+Make sure to replace the placeholders in the code with your actual GTM Account ID, Container ID, Conversion ID, Conversion Label, and Google Ads Conversion ID and Label.
+
+You can use the function **createGoogleAdsConversionTag(triggerType, triggerFilters)** to create the tag
+Here's an explanation of how to use the function:
+
+1. **triggerType**: This parameter allows you to specify the type of trigger you want to create. You can choose from the following options:
+
+**'click'**: Click trigger
+**'domready'**: DOM Ready trigger
+**'windowload'**: Window Loaded trigger
+**'justlinks'**: Just Links trigger
+**'formsubmit'**: Form Submission trigger
+**'custom'**: Custom Event trigger
+
+2. **triggerFilters**: This parameter is an array that allows you to specify custom event filters for the trigger. You can provide any necessary filters based on your requirements.
+
+After creating the trigger and conversion tag, the function links the tag to the trigger and saves the container.
+
+To use the function, you can call it with the desired trigger type and trigger filters. Here's an example:
+**createGoogleAdsConversionTag('click', ['{{Click Element}} matches CSS selector .btn', '{{Click URL}} contains /checkout']);**
+This example creates a Click trigger with custom event filters where the click element matches the CSS selector .btn and the click URL contains /checkout.
+
+Please adapt the code according to your specific requirements and replace the placeholder values with the actual ones for successful implementation.
