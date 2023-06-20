@@ -62,10 +62,10 @@ Here's an explanation of how to use the function:
 
 2. **triggerFilters**: This parameter is an array that allows you to specify custom event filters for the trigger. You can provide any necessary filters based on your requirements.
 
-After creating the trigger and conversion tag, the function links the tag to the trigger and saves the container.
+  After creating the trigger and conversion tag, the function links the tag to the trigger and saves the container.
 
-To use the function, you can call it with the desired trigger type and trigger filters. Here's an example:
-**createGoogleAdsConversionTag('click', ['{{Click Element}} matches CSS selector .btn', '{{Click URL}} contains /checkout']);**
-This example creates a Click trigger with custom event filters where the click element matches the CSS selector .btn and the click URL contains /checkout.
+  To use the function, you can call it with the desired trigger type and trigger filters. Here's an example:
+  **createGoogleAdsConversionTag('click', ['{{Click Element}} matches CSS selector .btn', '{{Click URL}} contains /checkout']);**
+  This example creates a Click trigger with custom event filters where the click element matches the CSS selector .btn and the click     URL contains /checkout.
 
-Please adapt the code according to your specific requirements and replace the placeholder values with the actual ones for successful implementation.
+Please adapt the code according to your specific requirements and replace the placeholder values with the actual ones for successful   implementation.
