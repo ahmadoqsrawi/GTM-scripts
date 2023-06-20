@@ -70,4 +70,6 @@ Here's an explanation of how to use the function:
   
   This example creates a Click trigger with custom event filters where the click element matches the CSS selector .btn and the click     URL contains /checkout.
 
-Please adapt the code according to your specific requirements and replace the placeholder values with the actual ones for successful   implementation.
+**Please adapt the code according to your specific requirements and replace the placeholder values with the actual ones for successful   implementation.**
+
+**To use this code, you need to integrate it into a larger JavaScript project or environment that supports the Google Tag Manager API and the required dependencies. You may need to consult the GTM documentation or seek assistance from a developer familiar with Google Tag Manager to ensure proper integration and execution of this code within your project.**
