@@ -53,12 +53,12 @@ Here's an explanation of how to use the function:
 
 1- **triggerType**: This parameter allows you to specify the type of trigger you want to create. You can choose from the following options:
 
-**'click'**: Click trigger
-**'domready'**: DOM Ready trigger
-**'windowload'**: Window Loaded trigger
-**'justlinks'**: Just Links trigger
-**'formsubmit'**: Form Submission trigger
-**'custom'**: Custom Event trigger
+- **'click'**: Click trigger
+- **'domready'**: DOM Ready trigger
+- **'windowload'**: Window Loaded trigger
+- **'justlinks'**: Just Links trigger
+- **'formsubmit'**: Form Submission trigger
+- **'custom'**: Custom Event trigger
 
 2- **triggerFilters**: This parameter is an array that allows you to specify custom event filters for the trigger. You can provide any necessary filters based on your requirements.
 
