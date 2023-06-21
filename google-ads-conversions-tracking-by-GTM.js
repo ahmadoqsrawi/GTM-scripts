@@ -1,5 +1,9 @@
-// Version: 1.0.2
-// MIT License
+/*************************************************
+* Google Ads Budget Report
+* @version: 2.0
+* @author: Ahmad Ismail
+***************************************************
+*/
 
 function createGoogleAdsConversionTag(triggerType, triggerFilters) {
   var tagManager = TagManager.Accounts.get('123456'); // Your GTM Account ID
